@@ -3,12 +3,12 @@
 
 Python is a wildly useful programming language, these are some clips of code that I have found to be helpful. 
 
-Finding the current directory
+# Finding the current directory
 ```python
 import os 
 where_am_i = os.getcwd()
 ```
-Opening a file 
+# Opening a file 
 ```python
 with open ("filename.txt) as file:
 	data = file.readlines()
@@ -19,8 +19,8 @@ with open('writeout.txt','w') as output:
 	
 ```
 
-Writing a nested list to file, not as a csv though
-written by this (lovely person)[https://stackoverflow.com/questions/47126718/writing-nested-lists-into-a-txt-file]
+# Writing a nested list to file, not as a csv though
+written by this [lovely person](https://stackoverflow.com/questions/47126718/writing-nested-lists-into-a-txt-file)
 ```python
 lst = [['a', 2.0], ['b', 3.0], ['c', 4.0]]
 

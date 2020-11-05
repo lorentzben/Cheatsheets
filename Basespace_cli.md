@@ -1,8 +1,8 @@
 # Illumia Basespace Sequence Hub CLI
 ### Ben Lorentz
+
 This tool is used to download DNA sequneces that were produced on an Illumina machine. While it is possible to download these DNA files (typically a .fastq format) through a browser, most clusters do not have a gui to open a browser on. A second case is when building pipelines it is much easier to invoke a command line command as opposed to managign a queiry through a browser. To solve this Illumina has built a CLI tool to download these raw reads. 
-Illumina's [website](https://developer.basespace.illumina.com/docs/content/documentation/cli/cli-overview) is probably the best resouce for this tool, so if this short guide does not cover what you are looking for, take a look there. 
--------------------------------------------------
+Illumina's [website](https://developer.basespace.illumina.com/docs/content/documentation/cli/cli-overview) is probably the best resouce for this tool, so if this short guide does not cover what you are looking for, take a look there.
 
 ## Installation
 ```shell

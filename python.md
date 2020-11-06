@@ -43,6 +43,23 @@ os.system("echo hello world")
 ## using subprocess
 ```python
 import subprocess
+from subprocess import PIPE
 
-subprocess.run(["ls", "-l"])
+subprocess.run(["ls", "-lah"])
+
+total 15M
+drwxr-xr-x  2 bjl34716 sealab 4.0K Nov  5 14:09 .
+drwx------ 20 bjl34716 sealab 4.0K Nov  5 13:53 ..
+-rw-r--r--  1 bjl34716 sealab  15M Aug 12 09:59 bs
+CompletedProcess(args=['ls', '-lah'], returncode=0)
+
+
+subprocess.run(["ls"], stdout=PIPE, stderr=PIPE)
+
+CompletedProcess(args=['ls'], returncode=0, stdout=b'bs\n', stderr=b'')
+
+
+temp = subprocess.run(["ls"], stdout=PIPE, stderr=PIPE)
+print(temp.stdout)
+bs\n
 ```

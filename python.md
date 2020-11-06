@@ -63,3 +63,14 @@ temp = subprocess.run(["ls"], stdout=PIPE, stderr=PIPE)
 print(temp.stdout)
 bs\n
 ```
+
+# Create a list of files in the current directory with a certain extention
+```python
+from pathlib import Path
+from pathlib import PurePath
+
+p = Path.cwd()
+word_docs = []
+list_of_docs = list(p.glob("**/*.docx"))
+
+```

@@ -32,3 +32,17 @@ with open(filename, 'w') as f:
           f.write(line)
 
 ```
+# Calling bash shell commands
+## using os.system
+```python
+import os
+
+os.system("echo hello world")
+```
+
+## using subprocess
+```python
+import subprocess
+
+subprocess.run(["ls", "-l"])
+```

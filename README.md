@@ -6,5 +6,6 @@ This repository is a place where I can put tips and tricks for software that I f
  # Table of Contents
  1. [Illumia Basespace Sequence Hub CLI](https://github.com/lorentzben/Cheatsheets/blob/main/Basespace_cli.md)
  2. [Python Tips](https://github.com/lorentzben/Cheatsheets/blob/main/python.md)
- 3. To Be Determined 
+ 3. To Be Determined (TBD)
+
  
